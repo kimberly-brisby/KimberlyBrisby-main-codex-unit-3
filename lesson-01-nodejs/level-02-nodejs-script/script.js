@@ -1,0 +1,1 @@
+console.log("We use the node command then the file name to run the code in the termninal.");
