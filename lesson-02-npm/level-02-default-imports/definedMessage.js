@@ -1,1 +1,1 @@
-const definedMessage = "";
+const definedMessage = "directMessage";
