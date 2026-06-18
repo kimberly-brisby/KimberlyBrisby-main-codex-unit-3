@@ -16,6 +16,7 @@ Exports and imports allow code to be modular, more readable, and easier to reuse
 4. Read the other `.js` files and observe that their code is exported.
 5. In `index.js`, add `console.log` to display a message.
 6. Let the message explain the benefits of exporting and importing code.
+7. Run `index.js`.
 
 ## More Information
 

@@ -1,5 +1,3 @@
-// math.js (ESM)
-// Export a function that takes two numbers and returns an interesting calculation result.
 export function stats(a, b) {
   const sum = a + b;
   const product = a * b;
