@@ -12,6 +12,12 @@
 				"name": "http://127.0.0.1:3002/lesson-03-react/level-03-vite/html-css-javascript/index.html",
 				"request": "launch",
 				"url": "http://127.0.0.1:3002/lesson-03-react/level-03-vite/html-css-javascript/index.html"
+			},
+			{
+				"type": "msedge",
+				"name": "http://127.0.0.1:3002/lesson-03-react/level-02-scaffold/html-css-javascript/index.html",
+				"request": "launch",
+				"url": "http://127.0.0.1:3002/lesson-03-react/level-02-scaffold/html-css-javascript/index.html"
 			}
 		]
 	}

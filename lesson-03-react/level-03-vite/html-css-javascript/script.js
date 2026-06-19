@@ -1,1 +1,0 @@
-console.log("Scaffolding is creating a folder that holds all the files for a project. All the files like html, script, and css can already be putin the folder in order to begin developing. ")

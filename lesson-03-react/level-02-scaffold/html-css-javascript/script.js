@@ -1,0 +1,1 @@
+console.log("Scaffolding is the folder and the files to start a developing project. It holds the html, css, and script files in a folder.");
