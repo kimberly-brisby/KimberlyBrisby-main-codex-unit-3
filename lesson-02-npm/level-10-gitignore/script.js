@@ -1,0 +1,1 @@
+console.log("Gitignore list files and folders that should not be in source control.")
