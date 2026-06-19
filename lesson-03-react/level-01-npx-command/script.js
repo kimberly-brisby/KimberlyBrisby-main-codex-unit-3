@@ -1,0 +1,1 @@
+console.log("npx command runs code directly in the terminal and temporaliy installs modules that are not listed in package.json.")

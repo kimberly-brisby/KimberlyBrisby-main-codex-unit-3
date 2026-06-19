@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "chalk": "^5.6.2",
+    "cowsay": "^1.6.0",
     "figlet": "^1.11.0"
   }
 }
