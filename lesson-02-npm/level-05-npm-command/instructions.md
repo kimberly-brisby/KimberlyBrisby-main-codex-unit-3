@@ -2,7 +2,7 @@
 
 ## Objective
 
-Learn about the `npm` command.
+Learn about the `npm` command and initialize a new NodeJS project.
 
 ## Benefits
 
