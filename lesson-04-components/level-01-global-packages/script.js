@@ -1,0 +1,1 @@
+console.log("The way to install gloabl packages is to go in the terminal and type in npm install --global + the name of the package then hit enter and it will install. You can then type the package name + --version to see the version that you have installed. If command not found you may need to restart the computer. ")
