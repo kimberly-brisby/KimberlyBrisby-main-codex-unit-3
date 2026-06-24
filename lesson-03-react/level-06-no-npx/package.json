@@ -1,0 +1,17 @@
+{
+  "name": "level-06-no-npx",
+  "version": "1.0.0",
+  "description": "level-05-no-npx",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "message1": "npx cowsay Is npx requried?",
+    "message2": "cowsay Is npx requried",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  }
+}

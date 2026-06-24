@@ -1,0 +1,1 @@
+console.log("Npx is required for one-off commands like cowsay and is not required for everday day tools like react.")
