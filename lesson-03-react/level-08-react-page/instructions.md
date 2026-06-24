@@ -10,7 +10,7 @@ Using your own custom template for a new project is much faster than scaffolding
 
 ## Complete these tasks
 
-1. In your system's folder explorer or file picker, copy your `react-template` folder into this level folder.
+1. In your system's file explorer or file finder, copy your `react-template` folder into this level folder.
 2. In this level folder, rename `react-template` to `react-page`.
 3. In the terminal, navigate to the `react-page` folder.
 4. Start the Vite server with `npm run dev`.
@@ -42,3 +42,6 @@ Using your own custom template for a new project is much faster than scaffolding
 ## Hints
 
 - If the `node_modules` folder isn't installed - In the terminal, navigate to the project folder, then run `npm install`. NPM packages for the project will be installed. An internet connection is required to download the packages.
+- [image1 URL](https://science.nasa.gov/wp-content/uploads/2023/09/pia23865-2.jpg)
+- [image2 URL](https://science.nasa.gov/wp-content/uploads/2023/09/stsci-01f3n9k6pr8b5y9cz2qd7asqpt-1.png)
+- [image3 URL](https://science.nasa.gov/wp-content/uploads/2023/09/crab-lg.jpeg)
