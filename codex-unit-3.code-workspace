@@ -30,6 +30,12 @@
 				"name": "http://127.0.0.1:3002/lesson-03-react/level-05-npm-scripts/react/index.html",
 				"request": "launch",
 				"url": "http://127.0.0.1:3002/lesson-03-react/level-05-npm-scripts/react/index.html"
+			},
+			{
+				"type": "msedge",
+				"name": "http://127.0.0.1:3002/lesson-03-react/level-07-react-template/react-template/index.html",
+				"request": "launch",
+				"url": "http://127.0.0.1:3002/lesson-03-react/level-07-react-template/react-template/index.html"
 			}
 		]
 	}
