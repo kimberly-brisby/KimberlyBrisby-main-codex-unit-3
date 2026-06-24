@@ -5,10 +5,15 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-  return <main>
-    <h1>React Template</h1>
-    <p>In order to create a react tempete you first need to create a vite file in the terminal. Then you select what type it will be in this case react and Javascript. Once you hit enter let the all the code automatically install. Select yes to complete and you have a react template</p>
-  </main>;
+  return (<main>
+    <h1>React Page</h1>
+    <p>This level is teaching me how to add images to a page by using a react templete.</p>
+    <div id="img">
+      <img src={reactLogo}/>
+    <img src={viteLogo}/>
+    <img src={heroImg}/>
+    </div>
+  </main>);
 }
 
 export default App
