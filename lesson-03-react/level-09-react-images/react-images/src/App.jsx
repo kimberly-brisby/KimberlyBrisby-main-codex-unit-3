@@ -1,13 +1,18 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import archVess from './assets/archVess.jpg'
+import peachVess from './assets/peachVess.jpg'
+import vessCans from './assets/vessCans.jpg'
 import './App.css'
 
 function App() {
   return <main>
-    <h1>React Template</h1>
-    <p>In order to create a react tempete you first need to create a vite file in the terminal. Then you select what type it will be in this case react and Javascript. Once you hit enter let the all the code automatically install. Select yes to complete and you have a react template</p>
+    <h1>React Images</h1>
+    <p>In order to add images to React you place the image in the assets file that located in the src file in your local folder. Then you import them from the assets file into the app.jsx.</p>
+    <div id='img'>
+      <img src={archVess}/>
+    <img src={peachVess}/>
+    <img src={vessCans}/>
+    </div>
   </main>;
 }
 
