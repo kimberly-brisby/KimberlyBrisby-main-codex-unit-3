@@ -1,0 +1,15 @@
+body{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background-color: beige;
+
+}
+ h1{
+  text-align: center;
+ 
+ }
+  
+p{ 
+  text-align: justify;
+}

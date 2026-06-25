@@ -1,0 +1,1 @@
+console.log("Pnpm saves time and space by sharing packages arcoss projects and using a global store rather than repaeting the files.")
