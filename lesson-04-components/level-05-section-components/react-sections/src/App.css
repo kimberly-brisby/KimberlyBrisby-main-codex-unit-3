@@ -1,8 +1,11 @@
 h1{
-  display: flex;
-  align-content: center;
-  color: blue;
   font-size: larger;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: chartreuse;
+}
+
+p{
+  font-size: medium;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+  color: darkgreen;
 }
