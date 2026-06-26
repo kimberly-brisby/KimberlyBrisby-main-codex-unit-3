@@ -8,6 +8,13 @@
 	"launch": {
 		"configurations": [
 			{
+				"name": "React Debugger",
+				"request": "launch",
+				"type": "chrome",
+				"url": "http://localhost:5173",
+				"webRoot": "${workspaceFolder}"
+			},
+			{
 				"type": "msedge",
 				"name": "http://127.0.0.1:3002/lesson-03-react/level-03-vite/html-css-javascript/index.html",
 				"request": "launch",
@@ -40,3 +47,4 @@
 		]
 	}
 }
+
