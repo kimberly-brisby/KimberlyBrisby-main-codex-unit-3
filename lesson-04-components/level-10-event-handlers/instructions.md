@@ -1,4 +1,4 @@
-# CEvent Handlers
+# Event Handlers
 
 ## Objective
 
@@ -10,7 +10,7 @@ Handling events with React components makes them more dynamic.
 
 ## Complete these tasks
 
-1. In your system's folder explorer or file picker, copy your `react-template` folder into this level folder. The template should render `Header`, `Main`, and `Footer` components.
+1. In your system's file explorer or file picker, copy your `react-template` folder into this level folder. The template should render `Header`, `Main`, and `Footer` components.
 2. In this level folder, rename `react-template` to `react-events`.
 3. In the terminal, navigate to the `react-events` folder.
 4. Start the Vite server and open the React Debugger browser. You may need to install `node_modules`.
@@ -24,11 +24,13 @@ Handling events with React components makes them more dynamic.
 12. On the `button` tag, add the attribute `onClick={handleClick}`.
 13. View the page in the browser.
 14. Click on the button. The debugger should activate when the button is clicked.
+15. View the message in the console.
 
 ## More Information
 
 - In React, event handlers can be directly attached to HTML elements.
 - Events are attached to elements with an attribute that starts with `on`.
+- The click event can be assigned with the `onClick` attribute of an HTML tag.
 - Handler functions can be assigned to event attributes. Example: `onClick={handleClick}`
 
 ## Usage Tips
