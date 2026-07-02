@@ -1,1 +1,1 @@
-console.log();
+console.log("The npm init command will create a package.json to start a project.");
