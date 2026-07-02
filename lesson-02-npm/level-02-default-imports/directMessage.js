@@ -1,1 +1,3 @@
-export default "export default allows a single value in a file to be accessible by other files.";
+export default  "Imports allows the deported value to be accessible."
+
+
