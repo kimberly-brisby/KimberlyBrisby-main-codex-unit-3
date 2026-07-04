@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { Header } from "./components/Header";
-import { Main } from "./components/Main";
-import { Footer } from "./components/Footer";
+import { Header } from "./components/Header.jsx";
+import { Main } from "./components/Main.jsx";
+import { Footer } from "./components/Footer.jsx";
 import './App.css'
 
 function App() {
@@ -9,10 +9,9 @@ function App() {
 
   return (
     <>
-     <Header title =
-     "Destructured Props"/>
-     <Main message ="The way to destructure props is by replacing a prop in a parameter in curly braces. "/>
-     <Footer closing="Kimberly Brisby"/>
+     <Header />
+     <Main />
+     <Footer />
     </>
   );
 }
