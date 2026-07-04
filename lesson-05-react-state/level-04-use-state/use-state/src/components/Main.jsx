@@ -1,15 +1,11 @@
 import { useState } from "react";
 
 export function Main(){
-    const results = useState(0);
+    const [count, setCount] = useState(0);
     debugger
-    const count = results[0];
-    const setCount = results[1];
-
+    
    return(
-   
-   <main>
-     
+   <main> 
         <button onClick={handleClick}>Click Counter</button>
         <p>{count}</p>
         <p>Use state returns an array and changes the value.</p>
@@ -17,6 +13,6 @@ export function Main(){
    );
    function handleClick(event){
         event.preventDefault()
-        useState = count + 1;
+        setCount(count + 1);
     };
 }
