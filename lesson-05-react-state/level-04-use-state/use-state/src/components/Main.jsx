@@ -11,7 +11,7 @@ export function Main(){
         event.preventDefault()
     }
         <button onClick={handleClick}>Click Counter</button>
-        <p>current counter{count}</p>
+        <p>{count}</p>
         <p>Use state returns an array and changes the value.</p>
     </main>
    );
