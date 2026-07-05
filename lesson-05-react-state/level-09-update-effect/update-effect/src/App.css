@@ -1,0 +1,18 @@
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  color: royalblue;
+}
+
+p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  color: cadetblue;
+
+}
+
+h6{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
+  color: cornflowerblue;
+}
