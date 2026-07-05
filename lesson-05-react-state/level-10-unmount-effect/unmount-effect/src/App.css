@@ -1,0 +1,17 @@
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  color: palegreen;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: powderblue;
+}
+
+h6{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: small;
+  color: palevioletred;
+}
