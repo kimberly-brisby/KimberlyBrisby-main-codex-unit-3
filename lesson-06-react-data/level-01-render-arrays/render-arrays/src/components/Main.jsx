@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
-import { data } from "./data/data.js";
+import { data } from "../data/data.js";
+
+
 export function Main(){
     const [didMount, setDidMount] = useState(false);
     const [images, setImages] = useState([]);
@@ -12,17 +14,23 @@ export function Main(){
             <p>In order render data array with HTML they are retrived from the componentDidMount, then in strictmode the data is forced to mount and unmount, and this aloows useEffect to callback the function.</p>
         </main>
     );
+
     function componentDidMount(){
+        debugger;
         setDidMount(true);
-        const figures =[];
-        figures.push(figures);
-        for(let i = 0; i < data.length; i++ ){
-            const figure = <figure>
-                <img>{src="data"}</img>
-                <figcaption>{caption="data"}</figcaption>
-            </figure>
-            setImages(figures);
-        };
+        const figures = [images];
         
-    };
+        for(let index = 0; index < data.length; index++ ){
+            const item = data[index];
+            const figures = <figure>
+                <img>{dataItem.src}</img>
+                <figcaption>{dataItem.caption}</figcaption>
+            </figure>
+            
+            figures.push(figures);
+        }
+
+        setImages(figures);
+        
+    }
 }
