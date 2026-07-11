@@ -35,7 +35,7 @@ export function Main(){
                 <input type="text" name="color"></input>
               </div>
               
-                <submit type="submit">Submit</submit>
+                <button type="submit">Submit</button>
             </form>
             <output>{values}</output>
             
