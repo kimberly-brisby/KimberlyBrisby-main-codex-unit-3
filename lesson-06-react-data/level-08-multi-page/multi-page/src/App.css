@@ -1,0 +1,15 @@
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  color: royalblue;
+}
+
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  color: navy;
+}
+
+h6{
+  color: rgb(15, 97, 97);
+}
