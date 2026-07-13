@@ -1,25 +1,27 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-export function Main(setUnmount){
-    ueseffect(componentDidUnmount,[])
-    setUnmount(true);
+export function Main(){
+    const [unmount, setUnmount] = useState(false);
+    useEffect(componentDidUnmount, []);
     
+  
     return (
-        <main>
-            <p></p>
-            <p></p>
+        <main>            
+            <p>The unmount phase  does not unmount itself it must unmount by a parent component, when I function is returned.</p>
             <button onClick={handleClick}>Click to unmount</button>
         </main>
     );
 
-    function handleClick(event){
-        event.preventDefault()
+    function componentDidUnmount(){
+       
     }
 
-    function componentDidUnmount(){
-        return (
-            alert("The Main compoent has unmounted")
-        );
+    function handleClick(event){   
+        event.preventDefault();
+        setUnmount(true);
+        alert("The Main component has unmounted.")
+
     }
+
     
 }
