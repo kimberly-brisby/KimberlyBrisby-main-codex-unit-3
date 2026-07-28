@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 export function Main(){
     
     const [characters, setCharaters] = useState();
-    const [didMount, setDidMoount] = useState(false);
+    const [didMount, setDidMount] = useState(false);
     useEffect(componentDidMount,[]);
     return (
         <main>
