@@ -1,10 +1,11 @@
-export function useCarouselTWE(){
-    return
-       useEffect(componentDidMount, MOUNT_PHASE);  
-    
+import { useEffect } from "react";
+import { Carousel,initTWE,} from "tw-elements";
 
-    function componentDidMount(){
-    initTWE({ Carousel });
-}
+export function useCarouselTWE(){
+   useEffect(componentDidMount,[]);
+
+   function componentDidMount(){
+    initTWE({Carousel});
+  }
 
 }

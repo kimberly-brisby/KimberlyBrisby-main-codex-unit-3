@@ -1,16 +1,8 @@
-import { useEffect, useState } from "react";
-
-import { Carousel,initTWE,} from "tw-elements";
+import { useEffect } from "react";
 import { useCarouselTWE } from "../hooks/useCarouselTWE";
 
-
-
-const MOUNT_PHASE = [];
-
 export function Slides(){
-    
-   
-
+  useCarouselTWE();
     return(
        <div
   id="carouselExampleCaptions"
@@ -151,8 +143,5 @@ export function Slides(){
     >
   </button>
 </div> 
-    );
-
-useCarouselTWE();
-    
+    );  
 }

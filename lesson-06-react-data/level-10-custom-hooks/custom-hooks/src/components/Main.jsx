@@ -1,9 +1,8 @@
-import { Slides } from "./Slides";
 
-export function Main (){
-    retrun (
+export function Main(){
+    return (
         <main>
-            <p></p>
+            <p>The main purpose for the react hook is to piece together the webpage by using key word components use and describing the feature that is being provided.</p>
             <Slides />
         </main>
     );
