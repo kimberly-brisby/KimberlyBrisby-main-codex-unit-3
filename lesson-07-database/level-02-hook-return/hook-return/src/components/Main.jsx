@@ -20,8 +20,8 @@ export function Main(){
 
     function handleSubmit(secretValue){
         event.preventDefault();
-        const value = {form.elemnents[secretKey.value]},
-        sessionStorage.setItem(secretValue)
+        const value = {form.elemnents[secretKey].value};
+        sessionStorage.setItem(secretValue);
     }
 
 }
