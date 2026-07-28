@@ -5,6 +5,7 @@ import { Footer } from "./components/Footer.jsx";
 import {BrowserRouter, Routes, Route} from "react-router"
 import './App.css'
 import { About } from './pages/About.jsx';
+import { Slides } from './pages/Slides.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/about" element={<About />}/>
+      <Route path="/slides" element={<Slides />}/>
     </Routes>
       <Footer />
     </BrowserRouter>
